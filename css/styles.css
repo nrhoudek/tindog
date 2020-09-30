@@ -1,0 +1,174 @@
+/*TAG SELECTORS*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+p {
+  color: #8F8F8F;
+}
+
+/* Headings */
+.big-heading {
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #FF4C68;
+  color: #FFF;
+}
+
+.white-section {
+    background-color: #FFF;
+}
+
+/* Title Section */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 1rem;
+}
+
+.nav-link {
+  font-family: 'Montserrat';
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+/* Title Image */
+.title-image {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 25%;
+}
+
+/* Download Buttons */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Feature Section */
+#features {
+  position: relative;     /*Used to cut off bottom of title-image */
+}
+
+.feature-font {
+  color: #000;
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-image {
+  color: #EF8172;
+  margin-bottom: 1rem;
+}
+
+.feature-image:hover {
+  color: #FF4C68;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #EF8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimoinal-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+/* Press Section */
+#press {
+  background-color:#EF8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 4% 8%;
+}
+
+/* Pricing Cards */
+
+.card-header {
+  background-color: #EF8172;
+}
+.card-title {
+  color: #000;
+  font-size: 1.5rem;
+}
+
+.pricing-column {
+  padding: 1.5rem 0.75rem;
+}
+
+
+/* Footer Section */
+.footer-icon {
+  margin: 10px;
+}
+
+
+@media (max-width: 1044px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
